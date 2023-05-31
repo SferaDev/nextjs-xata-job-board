@@ -1,0 +1,64 @@
+{
+  "id": "mig_chrihj1g5buvbk5rro50",
+  "checksum": "1:ad95652ea7a82e72f0d04ee4c5903e96c18ccf25c61e9e1cb407b6664a1ddb04",
+  "operations": [
+    {
+      "addTable": {
+        "table": "job"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "location",
+          "type": "string"
+        },
+        "table": "job"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "link",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "https://jamesqquick.com/"
+        },
+        "table": "job"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "company",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "Test Company"
+        },
+        "table": "job"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "title",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "Developer Job"
+        },
+        "table": "job"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "type",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "Fulltime"
+        },
+        "table": "job"
+      }
+    }
+  ]
+}
